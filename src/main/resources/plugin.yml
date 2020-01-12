@@ -1,0 +1,7 @@
+name: StaffTime
+version: ${project.version}
+main: com.demeng7215.stafftime.StaffTime
+depend: [Vault]
+author: Demeng7215
+description: Tracks staff playtime.
+website: https://demeng7215.com

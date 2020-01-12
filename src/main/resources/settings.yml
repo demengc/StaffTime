@@ -1,0 +1,16 @@
+# Configuration file for StaffTime.
+
+prefix: "&7[&2StaffTime&7] &r"
+staff-ranks:
+  - "Admin"
+  - "Moderator"
+  - "Helper"
+minutes-before-considered-afk: 5
+view-playtime-permission: "stafftime.view"
+playtime-format: "&f%weeks% &aweeks &f%days% &adays &f%hours% &ahours &f%minutes% &aminutes"
+
+messages:
+  no-permission: "&aYou do not have permission to execute that command."
+  invalid-usage: "&aInvalid usage. The correct usage is: &f/stafftime <player>&a."
+  invalid-player: "&f%target%&a's playtime is unknown. Have they ever joined the server as staff?"
+  playtime: "&f%target% &ahas played for %time%."
